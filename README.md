@@ -22,7 +22,7 @@ A modern, feature-rich boilerplate for building scalable React applications with
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/sahilbhuva/reactjs-boilerplate.git
+git clone https://github.com/sahilpatel-SS/reactjs-boilerplate
 cd reactjs-boilerplate
 ```
 
