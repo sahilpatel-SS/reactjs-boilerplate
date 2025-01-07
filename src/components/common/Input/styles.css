@@ -1,0 +1,87 @@
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.input {
+  padding: 8px 12px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: all 0.2s ease-in-out;
+  outline: none;
+  width: 100%;
+}
+
+.input:focus {
+  border-color: #1976d2;
+  box-shadow: 0 0 0 2px rgba(25, 118, 210, 0.2);
+}
+
+.input:disabled {
+  background-color: #f5f5f5;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+/* Variants */
+.input--primary {
+  border-color: #e0e0e0;
+}
+
+.input--secondary {
+  border-color: #9c27b0;
+}
+
+.input--secondary:focus {
+  border-color: #9c27b0;
+  box-shadow: 0 0 0 2px rgba(156, 39, 176, 0.2);
+}
+
+.input--outline {
+  border-width: 2px;
+}
+
+/* Sizes */
+.input--small {
+  padding: 6px 10px;
+  font-size: 14px;
+}
+
+.input--medium {
+  padding: 8px 12px;
+  font-size: 16px;
+}
+
+.input--large {
+  padding: 10px 14px;
+  font-size: 18px;
+}
+
+/* Full width */
+.input--full-width {
+  width: 100%;
+}
+
+/* Error state */
+.input--error {
+  border-color: #d32f2f;
+}
+
+.input--error:focus {
+  border-color: #d32f2f;
+  box-shadow: 0 0 0 2px rgba(211, 47, 47, 0.2);
+}
+
+.input__error {
+  color: #d32f2f;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.input__label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #424242;
+}
